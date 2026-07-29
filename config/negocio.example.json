@@ -1,0 +1,63 @@
+{
+  "lojas": [
+    {
+      "id": "LOJA_EXEMPLO",
+      "nome": "Loja Exemplo",
+      "conta_banco": "BANCO EXEMPLO - CONTA 0000",
+      "funcionario": "COLABORADOR EXEMPLO"
+    }
+  ],
+  "fornecedores": [
+    {
+      "id": "FORNECEDOR_EXEMPLO",
+      "nome": "Fornecedor Exemplo Ltda.",
+      "prazo_pagamento": 30,
+      "plano_contas": "0.0 - CATEGORIA EXEMPLO",
+      "descricao": "COMPRA EXEMPLO"
+    },
+    {
+      "id": "FOLHA_DE_PESSOAL",
+      "nome": "COLABORADOR EXEMPLO",
+      "prazo_pagamento": 5,
+      "plano_contas": "0.1 - PESSOAL",
+      "descricao": "PAGAMENTO DE PESSOAL"
+    }
+  ],
+  "regras_nf": {
+    "TRIBUTO_EXEMPLO": "0.2 - TRIBUTOS"
+  },
+  "fornecedor_nf": {
+    "0.2 - TRIBUTOS": "ÓRGÃO PÚBLICO EXEMPLO"
+  },
+  "fornecedor_por_loja_e_nf": [
+    {
+      "loja": "LOJA_EXEMPLO",
+      "nf": "DESCRIÇÃO ESPECIAL",
+      "fornecedor": "FORNECEDOR ESPECIAL EXEMPLO"
+    }
+  ],
+  "lojas_excluidas_exportacao": [
+    "Loja Excluída Exemplo"
+  ],
+  "robo": {
+    "normalizacoes": {
+      "GRAFIA ANTIGA": "GRAFIA ATUAL"
+    },
+    "consulta_historico": {
+      "LOJA": "Loja Exemplo",
+      "FORNECEDOR": "Fornecedor Exemplo Ltda.",
+      "DATA_EMISSAO": "01/01/2026",
+      "DATA_VENCIMENTO": "31/01/2026",
+      "DATA_PAGAMENTO": "31/01/2026",
+      "VALOR": 100.0
+    },
+    "auditoria": {
+      "inicio": "2026-01-01",
+      "fim": "2026-01-31",
+      "filtro_plano": "0.0 - CATEGORIA EXEMPLO",
+      "filtro_fornecedor": "FORNECEDOR EXEMPLO",
+      "arquivo": "auditoria.xlsx"
+    },
+    "motivo_estorno": "Correção de classificação contábil para relançamento."
+  }
+}

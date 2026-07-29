@@ -1,0 +1,29 @@
+# Segredos / credenciais
+.env
+config/negocio.json
+
+# Ambiente virtual
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Dados reais / sensíveis (planilhas e histórico de execução do robô)
+entrada.xlsx
+saida.xlsx
+preview.xlsx
+auditoria_mateus.xlsx
+historico_execucoes.jsonl
+progresso_robo_item*.json
+progresso_correcoes_lote.json
+*.xlsx
+*.xls
+*.csv
+*.jsonl
+
+# Outros arquivos temporários comuns
+*.log
+.DS_Store

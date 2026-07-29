@@ -70,6 +70,4 @@ Consulte:
 
 ## Aviso
 
-Antes do primeiro envio a um repositório remoto, siga integralmente a lista de
-verificação de segurança. O `.gitignore` evita novos commits acidentais, mas
-não remove dados que já tenham entrado no histórico do Git.
+Este é um projeto pessoal que desenvolvi para resolver um problema do mundo real enfrentado por um amigo. Ele visa otimizar a rotina diária dele e tornar o processo muito mais fácil

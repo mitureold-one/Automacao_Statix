@@ -1,4 +1,4 @@
-# STATIX
+# AUTOMAÇÂO DO STATIX
 
 Processador de planilhas e robô de automação para lançamentos de contas a
 pagar. O projeto separa a transformação dos dados da automação no navegador e
